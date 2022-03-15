@@ -1,0 +1,28 @@
+{
+  "name": "actions-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scogra17/actions-demo.git"
+  },
+  "author": "Scott Graham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scogra17/actions-demo/issues"
+  },
+  "homepage": "https://github.com/scogra17/actions-demo#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
