@@ -1,3 +1,3 @@
-const multiply = (a, b) => a * b * 3
+const multiply = (a, b) => a * b * 4
 
 module.exports = multiply
