@@ -3,6 +3,10 @@ const multiply = require('./multiply');
 
 const app = express()
 
+app.get('/', (req, res) => {
+  res.send('Welcome! Try /7times route')
+})
+
 app.get('/7times/:multiplicand', (req, res) => {
   const multiplicand = Number(req.params.multiplicand)
   const result = multiply(7, multiplicand)
