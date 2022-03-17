@@ -34,8 +34,7 @@ A trivial webapp for demo'ing Github actions
   a) `$ npm run test`
 4) Add and commit code with message "Fix operator"
 5) Push branch 
-  a) `$ git push origin change-operator`
-6) Create PR using provided url 
+  * `$ git push origin awesome-feature`
 7) Watch tests progress and pass
 8) Merge code
 9) Show webapp at [url](http://ls-actions-demo.herokuapp.com/), highlighting that the changes are now in production
