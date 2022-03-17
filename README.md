@@ -15,12 +15,13 @@ A trivial webapp for demo'ing Github actions
 7) Show Github repository, highlighting `.github/workflow/node.js.yml`
 
 ## Breaking change
-1) Create new branch `awesome-feature`
+1) Create new branch `awesome-feature` 
+  * `$ git checkout -b awesome-feature`
 2) Change operator in `multiply.js` to addition
 3) "Forget" to run unit test
 4) Add and commit code with message "Change operator"
 5) Push branch 
-  a) `$ git push origin change-operator`
+  * `$ git push origin awesome-feature`
 6) Create PR using provided url 
 7) Watch tests progress and fail
 8) Show that code cannot be merged
