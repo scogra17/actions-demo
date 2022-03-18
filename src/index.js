@@ -4,7 +4,7 @@ const multiply = require('./multiply');
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('Welcome! Try <a href="/7times/1">/7times/1</a> route')
+  res.send('Hello! Try <a href="/7times/1">/7times/1</a> route')
 })
 
 app.get('/7times/:multiplicand', (req, res) => {
